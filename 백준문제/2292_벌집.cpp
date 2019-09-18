@@ -1,4 +1,4 @@
-/* ���� ���� */
+/* ¹úÁý ¹®Á¦ */
 
 #include <iostream>
 using namespace std;
@@ -30,3 +30,31 @@ int main() {
 	system("pause");
 	return 0;
 }
+
+
+/* 간단하게 코드를 맞출 수 있었는데 복잡하게 짠 듯
+int main(void)
+{
+	int N;
+	cin >> N;
+	int cur = 1;
+	int result = 1;
+	int inc = 6;
+
+	while (1)
+	{
+		if (N <= cur)
+			break;
+		result++;
+		cur += inc;
+		inc += 6;
+	}
+
+	cout << result << "\n";
+	system("pause");
+	return 0;
+
+}
+
+// 뒷 번호 기준으로 맞춘 코드 
+*/
