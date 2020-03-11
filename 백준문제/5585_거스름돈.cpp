@@ -61,7 +61,7 @@ int main()
 
 	cout << count << endl;
 
-	system("pause");
+
 	return 0;
 }
 
